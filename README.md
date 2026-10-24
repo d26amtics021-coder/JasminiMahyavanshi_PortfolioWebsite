@@ -1,4 +1,4 @@
-# Jasmini Mahyanshi — IT4048 Portfolio
+# Jasmini Mahyavanshi — IT4048 Portfolio
 
 Responsive blue-and-white portfolio built with HTML, CSS and JavaScript.
 
@@ -20,7 +20,7 @@ Double-click `index.html` to open it in a browser. No build tools are required.
 
 ## GitHub Pages
 Create a public repository named `Jasmini_PortfolioWebsite`, upload the contents of this folder (keep `index.html` at the root), then go to **Settings → Pages → Deploy from a branch → main → /(root) → Save**. GitHub Pages deploys static files; a PHP project itself needs a PHP-capable host, but this portfolio page can be published with Pages.
-- `GitHub_ENROLLMENTNO_JasminiMahyanshi.pdf` — starter project report; replace `ENROLLMENTNO`, insert actual screenshots, and add final public repository/live links before submission.
+- `GitHub_ENROLLMENTNO_JasminiMahyavanshi.pdf` — starter project report; replace `ENROLLMENTNO`, insert actual screenshots, and add final public repository/live links before submission.
 
 ## Final submission checklist
 1. Replace `assets/profile-placeholder.svg` with a real photo (update the `src` in `index.html` if you use a different filename).
