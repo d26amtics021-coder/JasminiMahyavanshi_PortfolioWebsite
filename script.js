@@ -1,1 +1,16 @@
-const toggle=document.getElementById("menuToggle");const links=document.getElementById("navLinks");toggle.addEventListener("click",()=>{const open=links.classList.toggle("open");toggle.setAttribute("aria-expanded",String(open));toggle.textContent=open?"×":"☰"});links.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{links.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.textContent="☰"}));document.getElementById("year").textContent=new Date().getFullYear();document.getElementById("contactForm").addEventListener("submit",e=>{e.preventDefault();const name=document.getElementById("name").value.trim(),email=document.getElementById("email").value.trim(),message=document.getElementById("message").value.trim();document.getElementById("formStatus").textContent="Opening your email application…";location.href=`mailto:d26amtics021@gmail.com?subject=${encodeURIComponent("Portfolio message from "+name)}&body=${encodeURIComponent(message+"\n\nFrom: "+name+" ("+email+")")}`});
+const toggle = document.getElementById("menuToggle");
+const links = document.getElementById("navLinks");
+
+toggle.addEventListener("click", () => {
+  const open = links.classList.toggle("open");
+  toggle.setAttribute("aria-expanded", String(open));
+  toggle.textContent = open ? "×" : "☰";
+});
+
+links.querySelectorAll("a").forEach(a =>
+  a.addEventListener("click", () => {
+    links.classList.remove("open");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.textContent = "☰";
+  })
+);
